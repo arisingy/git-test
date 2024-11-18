@@ -1,0 +1,13 @@
+lantuh@apm1313:~$ touch file1.txt
+lantuh@apm1313:~$ echo "hello, world" file1.txt
+hello, world file1.txt
+lantuh@apm1313:~$ echo "hello, world" > file1.txt
+lantuh@apm1313:~$ cat file1.txt
+hello, world
+lantuh@apm1313:~$ mkdir folder1
+lantuh@apm1313:~$ mkdir folder1/subdir1
+lantuh@apm1313:~$ mv file1.txt folder1/subdir1
+lantuh@apm1313:~$ ls folder1/subdir1/
+file1.txt
+lantuh@apm1313:~$ 
+
